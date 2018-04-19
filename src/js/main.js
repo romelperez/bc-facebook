@@ -1,3 +1,1 @@
-import { person } from './components/navigation.js';
-
-console.log(person.name);
+import createDivElement from './components/header.js';
