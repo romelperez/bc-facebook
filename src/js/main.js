@@ -1,1 +1,5 @@
-import createDivElement from './components/header.js';
+import header from './components/header.js';
+
+const entrySelector = document.querySelector('.container');
+
+entrySelector.innerHTML = header;
