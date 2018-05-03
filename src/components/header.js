@@ -1,3 +1,5 @@
+import { dropdown } from './molecules/index.js';
+
 export default `
   <header>
     Logo
@@ -6,6 +8,6 @@ export default `
     Icon
     SearchBar
     UserBox
-    Nav
+    ${dropdown()}
   </header>
 `

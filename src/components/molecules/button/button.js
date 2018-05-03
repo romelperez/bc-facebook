@@ -1,6 +1,5 @@
 import {
-  icon,
-  logo
+  icon
 } from '../index.js';
 
 /**
