@@ -2,19 +2,19 @@ import {
   icon
 } from '../index.js';
 
-/**
- *
- * @param {string} text Text inside the button tag
- * @param {string} className CSS class
- * @returns {string}
- */
-function button(text, className = "") {
-  return (
+import {
+  parseComponent
+} from '../../../utils/DOMUtils.js';
+
+function button(text, className = "", callback) {
+  const component = (
     `<button class="${className}">
       ${icon('')}
       ${text}
     </button>`
   );
+
+  console.log(parseComponent(component))
 }
 
 export default button;

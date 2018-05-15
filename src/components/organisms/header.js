@@ -1,4 +1,4 @@
-import { dropdown } from './molecules/index.js';
+import { dropdown } from '../molecules/index.js';
 
 export default `
   <header>
