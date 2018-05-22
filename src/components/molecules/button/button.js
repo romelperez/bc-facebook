@@ -14,7 +14,11 @@ function button(text, className = "", callback) {
     </button>`
   );
 
-  console.log(parseComponent(component))
+  const componentParsed = parseComponent(component);
+
+  componentParsed.addEventListener('click', callback);
+
+  return componentParsed;
 }
 
 export default button;
